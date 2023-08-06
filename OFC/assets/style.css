@@ -69,7 +69,7 @@ header.header h6 {
 /* Conteúdo */
 .conteudo-vsl {
   clear: both;
-  width: 65%;
+  width: 80%;
   margin: 35px auto 0 auto; /* Margem superior de -20px */
   box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.5), 0 0 6px 6px rgba(255, 0, 0, 0.178);
 }
