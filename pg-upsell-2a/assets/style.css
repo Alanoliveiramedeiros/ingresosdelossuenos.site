@@ -97,7 +97,25 @@ img.setas {
     display: block;
     width: 40%;
     margin: 0 auto;
-}
+  }
+  img.Group-16-1 {
+    clear: both;
+    display: block;
+    width: 40%;
+    margin-left: auto; /* Para centralizar horizontalmente */
+    margin-right: auto; /* Para centralizar horizontalmente */
+    margin-top: 20px; /* Para mover a imagem para cima */
+    margin-bottom: 50px; /* Para mover a imagem para baixo */
+    }
+    img.Group-14-1-1024x630 {
+      clear: both;
+      display: block;
+      width: 40%;
+      margin-left: auto; /* Para centralizar horizontalmente */
+      margin-right: auto; /* Para centralizar horizontalmente */
+      margin-top: 20px; /* Para mover a imagem para cima */
+      margin-bottom: 50px; /* Para mover a imagem para baixo */
+  }  
 img.bt {
     clear: both;
     display: block;
@@ -295,7 +313,13 @@ footer.footer p {
 	}
 	img.setas {
 		width: 50%;
-		margin: 35px auto 0 auto;
+		margin: 35px auto 0 auto;}
+    img.Group-16-1  {
+      width: 80%;
+      margin: 35px auto 0 auto;}
+      img.Group-14-1-1024x630 {
+        width: 80%;
+        margin: 35px auto 0 auto;
 	}
 	img.bt {
 		width: 100%;
