@@ -51,16 +51,17 @@ section.conteudo h2 {
   font-weight: 400;
 }
 section.conteudo h2 i {
-  font-size: 2.31vw;
-  text-align: center;
-  padding-top: 2vh;
-  padding-bottom: 4vh;
-  color: #ff0000;
-  line-height: 1.5;
-  font-weight: 400;
-    padding: 2px 10px;
-    font-weight: 700;
-}
+    font-size: 2.31vw;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+    color: #ff0000;
+    line-height: 1; /* Valor menor para diminuir o espaçamento entre as linhas */
+    font-weight: 700; /* Você só precisa definir a propriedade font-weight uma vez */
+    padding: 2px 10px; /* Eu removi a segunda declaração de padding, pois isso sobrescreveria a primeira */
+  }
+  
+
 section.conteudo h3 {
     text-align: center;
     font-size: 14px;
@@ -274,9 +275,11 @@ footer.footer p {
 	}
 	section.conteudo h2 {
 		font-size: 21px;
+    line-height: 1;
 	}
   section.conteudo h2 i {
 		font-size: 21px;
+    line-height: 1;
 	}
 	section.conteudo h3 {
 		font-size: 12px;
