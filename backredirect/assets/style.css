@@ -319,8 +319,12 @@ footer.footer a {
 	}
     header.header h3 {
 		width: 100%;
-		font-size: 23px;
+		font-size: 25px;
 	}
+  header.header h3 span {
+    color: red;
+      font-size: 23px;
+  }
 	main#main {
 		width: 100%;
 	}
