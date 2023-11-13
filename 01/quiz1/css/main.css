@@ -676,6 +676,7 @@ div.questions p {
   div.questions p.custom-width {
     background-color: white;
     text-align: center;
+    font-family: 'Titillium Web', sans-serif;
   }
 
   div.questions h1  {
@@ -800,7 +801,7 @@ section.quiz .questions .final .image span {
 
 section.quiz .questions h3 span {
     line-height: 27px;
-    color: #3b5998;
+    color: #ce390b;
     text-transform: none;
 }
 
@@ -845,7 +846,7 @@ section.quiz .progress .half {
 section.quiz .questions .box:hover img,
 section.quiz .questions .box img.selected,
 section.quiz .questions .box.selected {
-    border-color: #3b5998 !important;
+    border-color: #000000 !important;
 }
 
 section.quiz .progress {
@@ -888,7 +889,7 @@ section.quiz .questions.male .two_by_two .box {
 
 section.quiz .questions.male .three_by_three .box:hover,
 section.quiz .questions.male .two_by_two .box:hover {
-    border-color: #3b5998;
+    border-color: #000000;
 }
 
 section.quiz .questions.male .steps .two_by_two {
@@ -896,7 +897,7 @@ section.quiz .questions.male .steps .two_by_two {
 }
 
 section.quiz .questions.male .box input[type=radio]:checked + label:before {
-    background: #3b5998;
+    background: #000000;
 }
 
 section.quiz .questions.male .box label:after,
@@ -929,6 +930,8 @@ section.quiz .questions .box label {
     position: relative;
     cursor: pointer;
     text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 
 section.quiz .questions .box label.custom_width {
@@ -984,7 +987,7 @@ section.quiz .questions .box input[type=radio]:checked + label:before {
 
 footer {
 	    color: #fff;
-    background: #ff7247;
+    background: #e45125;
     padding: 30px 10px 20px;
     text-align: center;
     position: relative;
@@ -1925,6 +1928,3 @@ section.quiz .questions .custom_box.selected{border:none;}
 }
 
 /*MEDIA QUERIES END*/
-section.q
-section.quiz
-section.quiz .questions h3, .final-box h3
