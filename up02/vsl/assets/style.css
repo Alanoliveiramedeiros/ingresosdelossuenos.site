@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/* CSS Document */
+/* CSS Document */
+
+section.conteudo h5 {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  margin: 0 auto 35px auto;
+  color: #ff0101;
+  margin: 70px auto 40px auto;
+}
+section.conteudo h5 span {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  margin: 0 auto 35px auto;
+  color: rgb(0, 0, 0);
+}
+section.conteudo h3 {
+    text-align: center;
+    font-size: 14px;
+    margin: 25px auto 15px auto;
+}
+/* Conteúdo */
+
+
+/* Responsivo */
+@media (max-width: 700px) {
+	img.ultrasecreto {
+		width: 80%;
+		margin: 5px auto 25px auto;
+	}	
+	header.header h1, section.conteudo h4 {
+		font-size: 16px;
+	}
+  section.conteudo h5 {
+		font-size: 15px;
+    margin: 50px auto 30px auto;
+	}
+	section.conteudo h3 {
+		font-size: 12px;
+   	margin: -5 auto 10px auto;
+	}
+	.video-vsl {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+}
+/* Responsivo */
